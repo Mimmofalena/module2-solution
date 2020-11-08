@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+
+ h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 75% larger;
+}
+
+.row {
+    width: 100%;
+}
+
+
+
+/* Responsive Desktop version width >992px */
+@media (min-width: 992px){
+    .col-desk-3 {
+        float:left;
+        width: 33.33%; 
+     }
+}
+
+/* Responsive Tablet version width between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-tabl-2 {
+        float: left;
+        width: 50%; 
+    }
+    .col-tabl-1 {
+        float:left;
+        width: 100%;  
+    }
+}
+/* Responsive Mobile View width equal or < 767px */
+
+@media (max-width: 767px) {
+    .col-mob-1 {
+        float: left;
+        width: 100%;  
+    }
+}
+
+.section-1 , .section-2, .section-3 {
+    border: 1px solid black;
+    padding:10px;
+    position:relative;
+    background-color: blueviolet;
+    height: 150px;
+    margin: 30px 15px 30px 15px;
+}
+
+
+.section-title-1, .section-title-2, .section-title-3{
+    position:absolute;
+    top:0;
+    right:0;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    background-color: chartreuse;
+    font-size: 25% larger;
+}
+
+#title-1{
+    background-color: yellow;
+    
+}
+#title-2{
+    background-color: darkorange;
+}
+#title-3{
+    background-color: red;
+}
+  
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 10px 0px 0px;
+    text-align: left;
+    color:black;  
+}
+
+
